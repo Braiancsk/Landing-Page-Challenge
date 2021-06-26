@@ -1,0 +1,145 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Fraunces', serif;
+}
+
+html,body{
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/*container property*/
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+/*flex property*/
+.flex{
+  display:flex;
+}
+
+.flex-center{
+  align-content: center;
+  justify-content: center;
+}
+
+.flex-around{
+  justify-content: space-around;
+}
+
+.flex-between{
+  justify-content: space-between;
+}
+
+.items-center{
+  align-items: center;
+  justify-items: center;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+/*grid property*/
+.grid{
+  display: grid;
+}
+
+.col-2{
+  grid-template-columns: repeat(2,1fr);
+}
+
+.col-3{
+  grid-template-columns:repeat(3,1fr);
+}
+
+.col-4{
+  grid-template-columns: repeat(4,1fr);
+}
+
+
+/*float property*/
+
+.float-left{
+  float:left;
+}
+
+.float-right{
+  float:right;
+}
+
+.clear{
+  clear: both;
+}
+
+/*size property*/
+.w-50{
+  width: 50%;
+}
+
+.w-100{
+  width: 100%;
+}
+
+.w-33{
+  width:33.3%;
+}
+
+/*align property*/
+
+.text-center{
+  text-align: center;
+}
+
+.text-right{
+  text-align: right;
+}
+
+/*padding property*/
+.p30-y{
+  padding: 30px 0;
+}
+
+.p20-y{
+  padding: 20px 0;
+}
+
+.p10-y{
+  padding:10px 0;
+}
+
+.p30-x{
+  padding:0 30px;
+}
+
+.p10-x{
+  padding:0 10px;
+}
+
+.p20-x{
+  padding:0 20px;
+}
+
+.p10{
+  padding: 10px;
+}
+
+.p20{
+  padding: 20px;
+}
+
+.p30{
+  padding: 30px;
+}
+
+/*media queries*/
+
+@media screen and (max-width:900px){
+  
+
+}
+
+

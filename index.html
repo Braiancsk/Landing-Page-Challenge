@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JS Estudos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' href='myframework.css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link href="hamburgers.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:ital,wght@0,700;0,900;1,800&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <section class="header-bg">
+       <div class="container">
+        <header>
+        <nav class="flex flex-between">
+            <h2 class="logo">Sunnyside</h2>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><button><a href="">Contact</a></button></li>     
+            </ul>
+            <div class="hamburger hamburger--collapse">
+                <div class="hamburger-box">
+                  <div class="hamburger-inner"></div>
+                </div>
+              </div>
+        </nav>
+
+        <nav class="mobile">
+            <ul class="flex flex-column">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><button><a href="">Contact</a></button></li>         
+            </ul>
+        </nav>
+        
+    </header>
+    <h1>We are creatives</h1>
+    </div><!--header-container-->
+    </section><!--header-bg-->
+
+    <main>
+        <div class="container">
+        <article class="article-one flex">
+            <div class="text-one">
+            <h2>Transform your<br> brand</h2>
+            <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+            <a href="#">Learn more</a>
+            <div class="line"></div>
+            </div><!--text-one-->
+            <div class="article-one-img">
+                <img srcset="images/image-transform.jpg 720w, images/mobile/image-transform.jpg 440w" sizes="(max-width: 1400px) 100%, (max-width: 440px) 100%,">
+            </div><!--article-one-img-->
+        </article><!--article-one-->
+
+        <article class="article-one flex">
+            <div class="article-one-img">
+                <img srcset="images/image-stand-out.jpg 720w, images/mobile/image-stand-out.jpg 440w" sizes="(max-width: 1400px) 100%, (max-width: 440px) 100%,">
+            </div><!--article-one-img-->
+            <div class="text-one">
+                <h2>Stand out to the right audience</h2>
+                <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+                <a href="#">Learn more</a>
+                <div class="line2"></div>
+            </div><!--text-one-->       
+        </article><!--article-one-->     
+    </div><!--container-->
+    </main>
+
+    <section class="projects">
+        <div class="project-wraper grid col-2">
+            <div class="project-single">  
+                <div class="bg-img">
+                <div class="container">
+                    <h2>Graphic Design</h2>
+                    <P>Graphic design Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</P>
+                </div><!--container-->
+                </div><!--bg-->
+            </div><!--project-single-->
+
+            <div class="project-single">  
+                <div class="bg-img2">
+                <div class="container">
+                    <h2>Photography</h2>
+                    <P>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</P>
+                </div><!--container-->
+                </div><!--bg-->
+            </div><!--project-single-->
+        </div><!--project-wraper-->
+           
+
+    </section><!--projects-->
+
+    <section class="depoimentos">
+        <div class="container">
+        <h2>Client Testimonials</h2>
+            <div class="wraper-col grid col-3">
+                
+            <div class="clientes-single">
+                <div class="img-cliente"><img src="images/depoimentos/image-emily.jpg"></div>
+                <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+                <span>Emily R.</span>
+                <p class="charge">Marketing Director</p>
+            </div><!--cliente-single-->
+        
+
+            <div class="clientes-single">
+                <div class="img-cliente"><img src="images/depoimentos/image-thomas.jpg"></div>
+                <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+                <span>Thomas S.</span>
+                <p class="charge">Chief Operating Officer</p>
+            </div><!--cliente-single-->
+           
+
+            <div class="clientes-single">
+                <div class="img-cliente"><img src="images/depoimentos/image-jennie.jpg"></div>
+                <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+                <span>Jennie F.</span>
+                <p class="charge">Business Owner</p>
+            </div><!--cliente-single-->
+        
+        </div><!--wraper-col-->
+    </div><!--container-->
+    </section><!--depoimentos-->
+
+    <section class="fotos">
+        <div class="fotos-wraper grid col-4">
+            <div class="foto-single">
+                <img srcset="images/image-gallery-milkbottles.jpg 720w, images/mobile/image-gallery-milkbottles.jpg 440w" sizes="(max-width: 1400px) 100%, (max-width: 440px) 100%,">
+            </div><!--foto-single-->
+            <div class="foto-single">
+                <img srcset="images/image-gallery-orange.jpg 720w, images/mobile/image-gallery-orange.jpg 440w" sizes="(max-width: 1400px) 100%, (max-width: 440px) 100%,">
+            </div><!--foto-single-->
+            <div class="foto-single">
+                <img srcset="images/image-gallery-cone.jpg 720w, images/mobile/image-cone.jpg 440w" sizes="(max-width: 1400px) 100%, (max-width: 440px) 100%,">
+            </div><!--foto-single-->
+            <div class="foto-single">
+                <img srcset="images/image-gallery-sugarcubes.jpg 720w, images/mobile/image-gallery-sugarcubes.jpg 440w" sizes="(max-width: 1400px) 100%, (max-width: 440px) 100%,">
+            </div><!--foto-single-->
+        </div><!--fotos-wraper-->
+    </section><!--fotos-->
+
+    <footer class="flex flex-column">
+        <h2>Sunnyside</h2>
+        <nav>
+            <ul class="flex">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+        </nav>
+        <div class="icons grid col-4">
+            <h3><i class="fa fa-facebook-square"></i></h3>
+            <h3><i class="fa fa-instagram"></i></h3>
+            <h3><i class="fa fa-twitter-square"></i></h3>
+            <h3><i class="fa fa-pinterest-square"></i></h3>
+        </div>
+        
+    </footer>
+
+<script src="main.js"></script>
+
+
+</body>
+</html>
